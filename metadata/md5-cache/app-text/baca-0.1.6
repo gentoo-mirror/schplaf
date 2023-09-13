@@ -1,0 +1,16 @@
+BDEPEND=python_targets_python3_10? ( dev-lang/python:3.10 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?] >=dev-python/poetry-core-1.6.1[python_targets_python3_10(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=>=dev-python/beautifulsoup4-4.12.0 dev-python/rich >=dev-python/textual-0.16.0 >=dev-python/appdirs-1.4.4 >=dev-python/python-markdownify-0.11.6 >=dev-python/peewee-3.16.0 >=dev-python/fuzzywuzzy-0.18.0
+DESCRIPTION=A TUI Ebook Reader
+EAPI=8
+HOMEPAGE=https://github.com/wustho/baca
+INHERIT=distutils-r1
+IUSE=python_targets_python3_10
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=>=dev-python/beautifulsoup4-4.12.0 dev-python/rich >=dev-python/textual-0.16.0 >=dev-python/appdirs-1.4.4 >=dev-python/python-markdownify-0.11.6 >=dev-python/peewee-3.16.0 >=dev-python/fuzzywuzzy-0.18.0 python_targets_python3_10? ( dev-lang/python:3.10 )
+REQUIRED_USE=|| ( python_targets_python3_10 )
+SLOT=0
+SRC_URI=https://github.com/wustho/baca/archive/refs/tags/v0.1.6.tar.gz -> baca-0.1.6.tar.gz
+_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	d976cc1483cbdceaf0ae0e78796c7d62	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	a93df67775ff86e107e56c6a6e68cf4e
+_md5_=67a41d4355159449a1c8691fdfb60894

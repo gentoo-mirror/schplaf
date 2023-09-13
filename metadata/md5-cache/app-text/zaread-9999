@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DEPEND=virtual/ooo zathura? ( app-text/zathura )
+DESCRIPTION=A (very) lightweight MS Office files reader
+EAPI=8
+HOMEPAGE=https://github.com/paoloap/zaread
+INHERIT=git-r3
+IUSE=zathura
+KEYWORDS=~amd64
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=virtual/ooo zathura? ( app-text/zathura )
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=d55d672d39ed6d02fd63dc3d84d0654e

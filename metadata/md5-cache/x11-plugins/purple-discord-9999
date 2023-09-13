@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=unpack
+DEPEND=dev-vcs/git dev-libs/json-glib net-im/pidgin
+DESCRIPTION=A libpurple/Pidgin plugin for Discord
+EAPI=8
+HOMEPAGE=https://github.com/EionRobb/purple-discord
+INHERIT=git-r3
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=dev-vcs/git dev-libs/json-glib net-im/pidgin
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=2e0cdfa9e69082e094ddd4aa2cd7afbe

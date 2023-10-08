@@ -5,14 +5,17 @@ EAPI=8
 
 inherit desktop java-pkg-2
 
+#upstream: 4.8.9-patch2
+#gentoo:   4.8.9_p2
+MY_PV=$(ver_cut 1-3)-patch$(ver_cut 5)
 MY_PN=Unciv
-MY_P=${MY_PN}-${PV}
+MY_P=${MY_PN}-${MY_PV}
 S=${WORKDIR}/
 
 DESCRIPTION="Civ V remake for Android & Desktop"
 HOMEPAGE="https://github.com/yairm210/Unciv"
-SRC_URI="https://github.com/yairm210/Unciv/releases/download/${PV}/${MY_PN}.jar -> ${MY_P}.jar"
-#https://github.com/yairm210/Unciv/releases/download/4.7.18/Unciv.jar
+SRC_URI="https://github.com/yairm210/Unciv/releases/download/${MY_PV}/${MY_PN}.jar -> ${MY_P}.jar"
+#https://github.com/yairm210/Unciv/releases/download/4.8.9-patch2/Unciv.jar
 
 LICENSE="MPL-2.0"
 SLOT="0"

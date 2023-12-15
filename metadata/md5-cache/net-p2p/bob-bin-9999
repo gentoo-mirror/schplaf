@@ -1,0 +1,9 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=B·o·B, an universal & secure peer-to-peer file-transfer (binary version)
+EAPI=8
+HOMEPAGE=https://bob.osau.re/ https://github.com/dinosaure/bob
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://builds.osau.re/job/bob/build/latest/f/bin/bob.com -> bob
+_md5_=8eef563542021a8064fb1d6d3ddb20d0

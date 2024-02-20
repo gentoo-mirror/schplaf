@@ -6,7 +6,7 @@ Package list:
 * app-text/epy                  - [2022.12.11]       -- A fork of epr, a CLI Ebook Reader
 * app-text/gpp                  - [2.27]             -- Command-line tool for looking up colors, shades and palettes
 * app-text/ods2md               - [9999-r1]          -- Convert LibreOffice Spreadsheets (*.ods) into Markdown tables
-* app-text/papis                - [0.13]             -- A powerful and highly extensible CLI document and bibliography manager
+* app-text/papis                - [0.13-r1]          -- A powerful and highly extensible CLI document and bibliography manager
 * app-text/zaread               - [9999]             -- A (very) lightweight MS Office files reader
 * app-vim/vim-latex             - [1.10.0-r3]        -- A comprehensive set of tools to view, edit and compile LaTeX documents [temporary ebuild, until the official one is updated]
 * dev-python/arxiv2bib          - [1.0.8]            -- CLI tool to get metadata for academic papers arXiv.org in BibTeX format
@@ -15,6 +15,7 @@ Package list:
 * dev-python/habanero           - [1.2.6]            -- Low level client for Crossref search API
 * dev-python/isbnlib            - [3.10.14]          -- A library to validate, clean, transform and get metadata for ISBN strings
 * dev-python/kitchen            - [1.2.6-r1]         -- Useful snippets of code that everybody ends up writing for their projects
+* dev-python/papis-rofi         - [0.2.0]            -- Papis GUI using Rofi
 * dev-python/pyexcel-ezodf      - [0.3.4-r1]         -- Library to manipulate OpenDocument files (pyexcel version)
 * dev-python/pykdtree           - [1.3.11]           -- Fast kd-tree implementation with OpenMP-enabled queries
 * dev-python/python-doi         - [0.2]              -- Python package to work with Document Object Identifier (doi)

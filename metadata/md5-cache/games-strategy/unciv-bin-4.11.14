@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install preinst prepare setup unpack
+DEPEND=>=dev-java/java-config-2.2.0-r3
+DESCRIPTION=Civ V remake for Android & Desktop
+EAPI=8
+HOMEPAGE=https://github.com/yairm210/Unciv
+INHERIT=desktop java-pkg-2
+KEYWORDS=~amd64
+LICENSE=MPL-2.0
+RDEPEND=|| ( virtual/jre:11 virtual/jre:17 ) >=dev-java/java-config-2.2.0-r3
+SLOT=0
+SRC_URI=https://github.com/yairm210/Unciv/releases/download/4.11.14/Unciv.jar -> Unciv-4.11.14.jar
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	java-utils-2	b346c3901e71ba37137bae0b25b00221	java-pkg-2	b6d755b4f6afabfd933932be28b46368
+_md5_=9b39898003b2be3f12f42940aae24216

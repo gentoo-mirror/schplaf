@@ -6,7 +6,7 @@ Package list:
 * app-text/csv2ical             - [9999]             -- Converts a CSV file with event information to an iCalendar ICS file
 * app-text/epy                  - [2022.12.11]       -- A fork of epr, a CLI Ebook Reader
 * app-text/gpp                  - [2.27]             -- Command-line tool for looking up colors, shades and palettes
-* app-text/ods2md               - [9999-r1]          -- Convert LibreOffice Spreadsheets (*.ods) into Markdown tables
+* app-text/ods2md               - [9999-r2]          -- Convert LibreOffice Spreadsheets (*.ods) into Markdown tables
 * app-text/papis                - [0.13-r1]          -- A powerful and highly extensible CLI document and bibliography manager
 * app-text/zaread               - [9999]             -- A (very) lightweight MS Office files reader
 * app-vim/vim-latex             - [1.10.0-r3]        -- A comprehensive set of tools to view, edit and compile LaTeX documents [temporary ebuild, until the official one is updated]
@@ -23,7 +23,7 @@ Package list:
 * dev-python/python-doi         - [0.2]              -- Python package to work with Document Object Identifier (doi)
 * dev-python/python-markdownify - [0.11.6]           -- Library to convert HTML to Markdown 
 * dev-python/textual            - [0.38.1]           -- Python framework to build sophisticated UI
-* games-strategy/unciv-bin      - [4.11.17]          -- Civ V remake for Android & Desktop
+* games-strategy/unciv-bin      - [4.12.1]           -- Civ V remake for Android & Desktop
 * media-fonts/square            - [1.0]              -- A TTF font designed to make characters fill a square space
 * media-libs/libtxc_dxtn        - [1.0.1]            -- Implementation of the S3 Texture Compression
 * net-misc/ddgr                 - [2.2]              -- A command line utility to search DuckDuckGo from the terminal

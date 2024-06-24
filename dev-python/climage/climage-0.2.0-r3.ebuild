@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..11} )
+PYTHON_COMPAT=( python3_{10..12} )
 
 inherit distutils-r1 pypi
 
@@ -17,7 +17,7 @@ HOMEPAGE="
 	https://github.com/pnappa/CLImage
 	https://pypi.org/project/climage/
 "
-SRC_URI="https://github.com/pnappa/CLImage/archive/refs/tags/v${PV}.tar.gz -> ${MY_P}.tar.gz"
+SRC_URI="https://github.com/pnappa/CLImage/archive/refs/tags/${PV}.tar.gz -> ${MY_P}.tar.gz"
 
 
 LICENSE="GPL-3"
@@ -26,12 +26,18 @@ KEYWORDS="~amd64"
 
 RDEPEND="
 	dev-python/pillow
+	dev-python/pykdtree
 "
 BDEPEND=""
 
 DOCS=( README.md LICENSE )
 
 distutils_enable_tests pytest
+
+src_prepare() {
+	eapply "${FILESDIR}"/${P}-climage.py-import.patch
+	eapply_user
+}
 
 src_install() {
 	distutils-r1_src_install

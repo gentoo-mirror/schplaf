@@ -1,0 +1,12 @@
+BDEPEND=sys-devel/gcc >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DESCRIPTION=Program that mesures the time it takes to load a shared library
+EAPI=8
+HOMEPAGE=https://github.com/serge-sans-paille/load-time
+INHERIT=git-r3
+KEYWORDS=~amd64
+LICENSE=BSD-3-Clause
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
+_md5_=40ab99968cf3edc7d1b062fcd72f6a2c

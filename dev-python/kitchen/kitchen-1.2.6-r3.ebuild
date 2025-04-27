@@ -4,6 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13} )
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Useful snippets of code that everybody ends up writing for their projects"
@@ -28,7 +29,7 @@ DEPEND="
 
 DOCS=( README.rst NEWS.rst HACKING.rst )
 
-distutils_enable_tests setup.py
+distutils_enable_tests unittest
 
 src_install() {
 	distutils-r1_src_install

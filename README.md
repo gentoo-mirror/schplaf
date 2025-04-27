@@ -19,7 +19,7 @@ Package list:
 * dev-python/fire               - [0.7.0]            -- Library for automatically generating CLIs with a single line of code
 * dev-python/habanero           - [2.2.0-r1]         -- Low level client for Crossref search API
 * dev-python/isbnlib            - [3.10.14-r1]       -- A library to validate, clean, transform and get metadata for ISBN strings
-* dev-python/kitchen            - [1.2.6-r2]         -- Useful snippets of code that everybody ends up writing for their projects
+* dev-python/kitchen            - [1.2.6-r3]         -- Useful snippets of code that everybody ends up writing for their projects
 * dev-python/papis-python-rofi  - [1.0.2]            -- Python module to create simple GUIs with Rofi (fork for papis)
 * dev-python/papis-rofi         - [0.2.0-r1]         -- Papis GUI using Rofi
 * dev-python/pyexcel-ezodf      - [0.3.4-r3]         -- Library to manipulate OpenDocument files (pyexcel version)
@@ -29,7 +29,7 @@ Package list:
 * dev-python/textual            - [0.38.1]           -- Python framework to build sophisticated UI
 * dev-vcs/gitstats              - [0_pre20201124-r1] -- Statistics generator for git [temporary ebuild, until the official one is updated]
 * dev-vcs/vcstool               - [0.3.0]            -- Tool designed to make working with multiple repositories easier
-* games-strategy/unciv-bin      - [4.15.18]          -- Civ V remake for Android & Desktop
+* games-strategy/unciv-bin      - [4.16.5]           -- Civ V remake for Android & Desktop
 * media-fonts/square            - [1.0]              -- A TTF font designed to make characters fill a square space
 * media-libs/libtxc_dxtn        - [1.0.1]            -- Implementation of the S3 Texture Compression
 * net-misc/ddgr                 - [2.2]              -- A command line utility to search DuckDuckGo from the terminal

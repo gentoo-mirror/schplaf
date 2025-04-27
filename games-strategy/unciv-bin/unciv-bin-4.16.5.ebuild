@@ -27,12 +27,12 @@ BDEPEND=""
 
 src_unpack() {
 	cp -v "${DISTDIR}/${A}" . || die
-	unzip ${A} ExtraImages/Icon.png || die
+	unzip ${A} ExtraImages/Icons/Unciv32.png || die
 }
 
 src_install() {
 	java-pkg_newjar "${MY_P}.jar"
 	java-pkg_dolauncher "${PN}" --jar "${PN}.jar"
-	newicon ExtraImages/Icon.png Unciv-bin-icon.png
+	newicon ExtraImages/Icons/Unciv32.png Unciv-bin-icon.png
 	make_desktop_entry "${PN}" Unciv-bin Unciv-bin-icon "Game;StrategyGame;" ""
 }

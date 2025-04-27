@@ -4,6 +4,7 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{10..13})
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
 DESCRIPTION="Library to manipulate OpenDocument files (pyexcel version)"
@@ -21,7 +22,7 @@ BDEPEND=""
 DOCS=( README.rst CHANGELOG.rst CONTRIBUTORS.rst docs/ )
 
 
-distutils_enable_tests setup.py
+distutils_enable_tests unittest
 
 src_install() {
 	distutils-r1_src_install

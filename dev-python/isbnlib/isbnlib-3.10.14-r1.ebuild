@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 
 inherit distutils-r1
 
@@ -22,7 +22,7 @@ BDEPEND=""
 
 DOCS=( AUTHORS.md CONTRIBUTING.md CHANGES.txt LICENSE-LGPL-3.0.txt release.md SECURITY.md README.rst COPYRIGHT.txt)
 
-distutils_enable_tests setup.py
+distutils_enable_tests pytest
 
 src_install() {
 	distutils-r1_src_install

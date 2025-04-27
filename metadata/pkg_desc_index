@@ -16,7 +16,7 @@ dev-python/climage 0.1.3-r2 0.2.0-r2 0.2.0-r3: Tool that converts images to beau
 dev-python/fire 0.6.0 0.7.0: Library for automatically generating CLIs from any Python object
 dev-python/habanero 1.2.6 2.2.0 2.2.0-r1: Low level client for Crossref search API
 dev-python/isbnlib 3.10.14-r1: A library to validate, clean, transform and get metadata for ISBN strings
-dev-python/kitchen 1.2.6-r2: Useful snippets of code that everybody ends up writing for their projects
+dev-python/kitchen 1.2.6-r3: Useful snippets of code that everybody ends up writing for their projects
 dev-python/papis-python-rofi 1.0.2: Python module to create simple GUIs with Rofi (fork for papis)
 dev-python/papis-rofi 0.2.0 0.2.0-r1: Papis GUI using Rofi
 dev-python/pyexcel-ezodf 0.3.4-r3: Library to manipulate OpenDocument files (pyexcel version)
@@ -26,7 +26,7 @@ dev-python/python-markdownify 0.11.6 0.12.1: Library to convert HTML to Markdown
 dev-python/textual 0.35.1 0.37.1 0.38.1: Python framework to build sophisticated UI
 dev-vcs/gitstats 0_pre20201124-r1: Statistics generator for git [temporary ebuild, until an official update
 dev-vcs/vcstool 0.3.0: Tool designed to make working with multiple repositories easier
-games-strategy/unciv-bin 4.15.1 4.15.6 4.15.8 4.15.12 4.15.18: Civ V remake for Android & Desktop
+games-strategy/unciv-bin 4.15.18 4.16.5: Civ V remake for Android & Desktop
 media-fonts/square 1.0: A TTF font designed to make characters fill a square space.
 media-libs/libtxc_dxtn 1.0.1: Implementation of the S3 Texture Compression
 net-misc/ddgr 2.1 2.2: A command line utility to search DuckDuckGo from the terminal

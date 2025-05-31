@@ -4,7 +4,7 @@ Package list:
 * app-admin/pass-import         - [3.5]              -- A pass extension for importing data from most existing password managers
 * app-benchmarks/load-time      - [9999]             -- Program that mesures the time it takes to load a shared library
 * app-misc/isbntools            - [4.3.29]           -- app/framework for 'all things ISBN' including metadata, descriptions, covers... 
-* app-text/baca                 - [0.1.17-r2 & 9999] -- A TUI Ebook Reader
+* app-text/baca                 - [0.1.17-r3 & 9999] -- A TUI Ebook Reader
 * app-text/colorpedia           - [1.2.3-r4]         -- Command-line tool for looking up colors, shades and palettes
 * app-text/csv2ical             - [9999]             -- Converts a CSV file with event information to an iCalendar ICS file
 * app-text/epy                  - [2022.12.11-r1]    -- A fork of epr, a CLI Ebook Reader
@@ -19,6 +19,7 @@ Package list:
 * dev-python/climage            - [0.2.0-r4]         -- Tool that converts images to beautiful ANSI escape codes for display in CLI
 * dev-python/fire               - [0.7.0]            -- Library for automatically generating CLIs with a single line of code
 * dev-python/habanero           - [2.2.0-r1]         -- Low level client for Crossref search API
+* dev-python/imghdr-lts         - [9999]             -- A "temporary" solution to compensate for the end of imghdr in Python3.13
 * dev-python/isbnlib            - [3.10.14-r1]       -- A library to validate, clean, transform and get metadata for ISBN strings
 * dev-python/kitchen            - [1.2.6-r3]         -- Useful snippets of code that everybody ends up writing for their projects
 * dev-python/papis-python-rofi  - [1.0.2]            -- Python module to create simple GUIs with Rofi (fork for papis)

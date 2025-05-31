@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=poetry
-PYTHON_COMPAT=( python3_{10..12} )
+PYTHON_COMPAT=( python3_{10..13} )
 inherit distutils-r1
 
 DESCRIPTION="A TUI Ebook Reader"
@@ -31,6 +31,7 @@ DEPEND="${DEPEND}
 	>=dev-python/peewee-3.16.0[${PYTHON_USEDEP}]
 	>=dev-python/fuzzywuzzy-0.18.0[${PYTHON_USEDEP}]
 	>=dev-python/climage-0.2.0[${PYTHON_USEDEP}]
+	dev-python/imghdr-lts[${PYTHON_USEDEP}]
 	"
 RDEPEND="${DEPEND}"
 BDEPEND=""

@@ -3,7 +3,8 @@
 
 EAPI=8
 
-PYTHON_COMPAT=( python3_{7..13} )
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{7..12} )
 PYTHON_REQ_USE="ncurses"
 
 inherit distutils-r1
@@ -24,6 +25,7 @@ RDEPEND="
 	dev-python/kitchen[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
+	dev-python/standard-mailcap[${PYTHON_USEDEP}]
 "
 BDEPEND="test? ( dev-python/vcrpy )"
 
@@ -31,6 +33,7 @@ distutils_enable_tests pytest
 
 src_prepare() {
 	eapply "${FILESDIR}"/${P}-config.py-readfp.patch
+	eapply "${FILESDIR}"/${PF}-standard-mailcap_req.patch
 	eapply_user
 }
 

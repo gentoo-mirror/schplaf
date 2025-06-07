@@ -30,7 +30,7 @@ Package list:
 * dev-python/python-doi         - [0.2-r1]           -- Python package to work with Document Object Identifier (doi)
 * dev-python/python-markdownify - [1.1.0]            -- Library to convert HTML to Markdown
 * dev-python/standard-mailcap   - [3.13.0]           -- Standard library mailcap redistribution. "dead battery".(removed in Python-3.13)
-* dev-python/textual            - [3.2.0]            -- Python framework to build sophisticated UI
+* dev-python/textual            - [3.3.0]            -- Python framework to build sophisticated UI
 * dev-vcs/gitstats              - [0_pre20201124-r1] -- Statistics generator for git [temporary ebuild, until the official one is updated]
 * dev-vcs/vcstool               - [0.3.0-r1]         -- Tool designed to make working with multiple repositories easier
 * games-strategy/unciv-bin      - [4.16.10]          -- Civ V remake for Android & Desktop
@@ -39,6 +39,5 @@ Package list:
 * net-misc/ddgr                 - [2.2]              -- A command line utility to search DuckDuckGo from the terminal
 * net-misc/tuir                 - [1.29.0-r3]        -- A terminal user interface (TUI) for Reddit
 * net-p2p/bob-bin               - [9999]             -- B·o·B, an universal & secure peer-to-peer file-transfer (binary version)
-* sys-process/btop              - [1.4.0]            -- A complete monitor of machine resources
 * x11-misc/find-cursor          - [1.8]              -- Simple XLib program to highlight the cursor position
 * x11-plugins/purple-discord    - [9999]             -- A libpurple/Pidgin plugin for Discord

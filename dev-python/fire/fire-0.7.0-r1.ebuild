@@ -1,7 +1,7 @@
 # Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{10..13} )
@@ -31,12 +31,12 @@ DEPEND=""
 RDEPEND="dev-python/termcolor[${PYTHON_USEDEP}]"
 BDEPEND="test? (
 	dev-python/hypothesis[${PYTHON_USEDEP}]
-	dev-python/Levenshtein[${PYTHON_USEDEP}]
+	dev-python/levenshtein[${PYTHON_USEDEP}]
 )"
 
 DOCS=( CONTRIBUTING.md LICENSE MANIFEST.in README.md docs/ )
 
-distutils_enable_tests setup.py
+distutils_enable_tests pytest
 
 src_install() {
 	distutils-r1_src_install

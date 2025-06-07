@@ -5,7 +5,7 @@ Package list:
 * app-benchmarks/load-time      - [9999]             -- Program that mesures the time it takes to load a shared library
 * app-eselect/eselect-llvm      - [20220206]         -- Manage LLVM versions
 * app-misc/isbntools            - [4.3.29]           -- app/framework for 'all things ISBN' including metadata, descriptions, covers... 
-* app-text/baca                 - [0.1.17-r3 & 9999] -- A TUI Ebook Reader
+* app-text/baca                 - [0.1.17-r4 & 9999] -- A TUI Ebook Reader
 * app-text/colorpedia           - [1.2.3-r5]         -- Command-line tool for looking up colors, shades and palettes
 * app-text/csv2ical             - [9999]             -- Converts a CSV file with event information to an iCalendar ICS file
 * app-text/epy                  - [2022.12.11-r1]    -- A fork of epr, a CLI Ebook Reader
@@ -29,6 +29,7 @@ Package list:
 * dev-python/pykdtree           - [1.4.1]            -- Fast kd-tree implementation with OpenMP-enabled queries
 * dev-python/python-doi         - [0.2-r1]           -- Python package to work with Document Object Identifier (doi)
 * dev-python/python-markdownify - [1.1.0]            -- Library to convert HTML to Markdown
+* dev-python/standard-imghdr    - [3.13.0]           -- Standard library imghdr redistribution. "dead battery".(removed in Python-3.13)
 * dev-python/standard-mailcap   - [3.13.0]           -- Standard library mailcap redistribution. "dead battery".(removed in Python-3.13)
 * dev-python/textual            - [3.3.0]            -- Python framework to build sophisticated UI
 * dev-vcs/gitstats              - [0_pre20201124-r1] -- Statistics generator for git [temporary ebuild, until the official one is updated]

@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{10..13} )
 inherit distutils-r1
 
 DESCRIPTION="Low level client for Crossref search API"
-HOMEPAGE="https://github.com/sckott/habanero/https://pypi.org/project/habanero/"
+HOMEPAGE="https://github.com/sckott/habanero/ https://pypi.org/project/habanero/"
 
 SRC_URI="https://github.com/sckott/habanero/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz"
 
@@ -24,7 +24,8 @@ DEPEND="
 	>=dev-python/packaging-24.1
 	>=dev-python/pyyaml-6.0.2
 	>=dev-python/tqdm-4.66.5
-	>=dev-python/urllib3-2.2.0
+	>=dev-python/urllib3-2.2.2
+	<dev-python/urllib3-3.0.0
 	bibtex? ( dev-python/bibtexparser )
 "
 RDEPEND="${DEPEND}"

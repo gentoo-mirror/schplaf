@@ -1,0 +1,16 @@
+BDEPEND=>=dev-lang/go-1.21.0 >=dev-lang/go-1.20:= app-arch/unzip virtual/pkgconfig
+DEFINED_PHASES=compile install unpack
+DEPEND=systemd? ( sys-apps/systemd )
+DESCRIPTION=A personal DNS server designed to solve problems associated with VPN use
+EAPI=8
+HOMEPAGE=https://github.com/jkerdreux-imt/owns
+INHERIT=go-module systemd
+IUSE=systemd
+KEYWORDS=~amd64
+LICENSE=BSD
+RDEPEND=systemd? ( sys-apps/systemd )
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/jkerdreux-imt/owns/archive/refs/tags/v0.6.1.tar.gz -> owns-0.6.1.tar.gz https://gitea.com/slash/schplaf-gentoo-overlay-files/raw/tag/owns-0.6.1/owns/owns-0.6.1-deps.tar.xz
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	191a27261275fc3bff7dd7482361b5d6	systemd	a964c0cbe818b5729da1dbfcee5be861
+_md5_=3d5f309196389b3460e17d1d0a4810b1

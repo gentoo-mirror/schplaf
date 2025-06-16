@@ -12,7 +12,7 @@ S=${WORKDIR}/
 DESCRIPTION="Civ V remake for Android & Desktop"
 HOMEPAGE="https://github.com/yairm210/Unciv"
 SRC_URI="https://github.com/yairm210/Unciv/releases/download/${PV}/${MY_PN}.jar -> ${MY_P}.jar"
-#https://github.com/yairm210/Unciv/releases/download/4.8.1/Unciv.jar
+
 
 LICENSE="MPL-2.0"
 SLOT="0"

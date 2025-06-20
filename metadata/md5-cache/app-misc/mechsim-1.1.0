@@ -1,0 +1,11 @@
+BDEPEND=sys-devel/gcc
+DEFINED_PHASES=install
+DESCRIPTION=A CLI-Based Mechanical Keyboard Sound Simulator
+EAPI=8
+HOMEPAGE=https://github.com/cjlangan/MechSim
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=dev-libs/json-c dev-libs/libevdev dev-libs/libinput media-libs/libpulse media-libs/libsndfile virtual/libudev
+SLOT=0
+SRC_URI=https://github.com/cjlangan/MechSim/archive/refs/tags/v1.1.0.tar.gz -> mechsim-1.1.0.tar.gz
+_md5_=2a7a995a8964768ae2db67ef309bfaef

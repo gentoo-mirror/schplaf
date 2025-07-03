@@ -1,0 +1,17 @@
+BDEPEND=python_targets_python3_12? ( dev-lang/python:3.12[ssl(+),threads(+)] ) python_targets_python3_13? ( dev-lang/python:3.13[ssl(+),threads(+)] ) >=dev-python/gpep517-16[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/setuptools-78.1.0[python_targets_python3_12(-)?,python_targets_python3_13(-)?]
+DEFINED_PHASES=compile configure install prepare test
+DEPEND=python_targets_python3_12? ( dev-lang/python:3.12[ssl(+),threads(+)] ) python_targets_python3_13? ( dev-lang/python:3.13[ssl(+),threads(+)] )
+DESCRIPTION=Coroutine-based concurrency library for Python
+EAPI=8
+HOMEPAGE=http://gevent.org/ https://github.com/gevent/gevent/ https://pypi.org/project/gevent/
+INHERIT=distutils-r1 pypi flag-o-matic
+IUSE=python_targets_python3_12 python_targets_python3_13 debug
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=>=dev-libs/libev-4.31 dev-libs/libuv >=net-dns/c-ares-1.12 >=dev-python/greenlet-3.2.2[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/cffi-1.17.1[python_targets_python3_12(-)?,python_targets_python3_13(-)?] >=dev-python/cython-3.0.11[python_targets_python3_12(-)?,python_targets_python3_13(-)?] python_targets_python3_12? ( dev-lang/python:3.12[ssl(+),threads(+)] ) python_targets_python3_13? ( dev-lang/python:3.13[ssl(+),threads(+)] )
+REQUIRED_USE=|| ( python_targets_python3_12 python_targets_python3_13 )
+RESTRICT=test
+SLOT=0
+SRC_URI=https://github.com/gevent/gevent/archive/refs/tags/25.5.1.tar.gz -> gevent-25.5.1.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	b892042b2667b8ac69ec8a2571dc290a	out-of-source-utils	dbf9e34ee8964084651e25907fa8f52c	multibuild	4650a65187015567b4e041bb9bfdb364	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-r1	0e15b2ab9cfc87d7474678201d6bca38	distutils-r1	be1082db72eb0381081ef946a26e3a71	pypi	ad1b21f87d117ae9bb089bdb65b8f013
+_md5_=856522e5268d983bec0044598cc7590e

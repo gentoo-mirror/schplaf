@@ -30,6 +30,8 @@ Package list:
 * dev-python/dunamai                   - [1.24.1]           -- Dynamic versioning library and CLI
 * dev-python/eval-type-backport        - [0.2.2]            -- Replacement for typing._eval_type to support newer typing features in older Python versions
 * dev-python/fire                      - [0.7.0-r1]         -- Library for automatically generating CLIs with a single line of code
+* dev-python/gevent                    - [25.5.1]           -- Coroutine-based concurrency library for Python
+* dev-python/grequests                 - [0.7.0]            -- Use Requests with Gevent to make asynchronous HTTP Requests easily
 * dev-python/habanero                  - [2.3.0]            -- Low level client for Crossref search API
 * dev-python/imghdr-lts                - [9999]             -- A "temporary" solution to compensate for the end of imghdr in Python3.13
 * dev-python/install-playwright-python - [0.1.1]            -- Execute `playwright install` from Python
@@ -48,12 +50,14 @@ Package list:
 * dev-python/textual                   - [3.5.0-r1]         -- Python framework to build sophisticated UI
 * dev-python/textual-speedups          - [0.2.0]            -- Optional Rust speedups for Textual (dev-python/textual)
 * dev-python/uv-dynamic-versioning     - [0.8.2]            -- Dynamic versioning based on VCS tags for uv/hatch project
+* dev-python/zope-dottedname           - [6.0]              -- Resolve strings containing dotted names into the appropriate python object
 * dev-vcs/gitstats                     - [0_pre20201124-r1] -- Statistics generator for git [temporary ebuild, until the official one is updated]
 * dev-vcs/vcstool                      - [0.3.0-r1]         -- Tool designed to make working with multiple repositories easier
 * games-strategy/unciv-bin             - [4.17.1]           -- Civ V remake for Android & Desktop
 * media-fonts/square                   - [1.0]              -- A TTF font designed to make characters fill a square space
 * media-gfx/imgcat                     - [1.0.22]           -- Display images and gifs in your terminal
 * media-libs/libtxc_dxtn               - [1.0.1]            -- Implementation of the S3 Texture Compression
+* media-sound/castero                  - [0.9.5]            -- TUI podcast client for the terminal
 * net-dns/owns                         - [0.8.1]            -- A personal DNS server designed to solve problems associated with VPN use
 * net-misc/ddgr                        - [2.2]              -- A command line utility to search DuckDuckGo from the terminal
 * net-misc/ytsurf                      - [1.0.0]            -- Simple shell script to search for YouTube videos from your terminal

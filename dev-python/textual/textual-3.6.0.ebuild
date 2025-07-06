@@ -15,12 +15,15 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
+IUSE="rust-speedups"
+
 DEPEND="
 	>=dev-python/rich-13.3.3[${PYTHON_USEDEP}]
 	>=dev-python/markdown-it-py-2.1.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.4.0[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-3.6.0[${PYTHON_USEDEP}]
 	<dev-python/platformdirs-5[${PYTHON_USEDEP}]
+	rust-speedups? ( dev-python/textual-speedups[${PYTHON_USEDEP}] )
 "
 	#>=dev-python/importlib-metadata-4.11.3[${PYTHON_USEDEP}]
 RDEPEND="${DEPEND}"
@@ -46,7 +49,7 @@ pkg_postinst() {
 	optfeature "bindings for html" ">=dev-libs/tree-sitter-html-0.23.0"
 	optfeature "bindings for css" ">=dev-libs/tree-sitter-css-0.23.0"
 	optfeature "bindings for javascript" ">=dev-libs/tree-sitter-javascript-0.23.0"
-	optfeature "bindings for rust" ">=dev-libs/tree-sitter-rust-0.23.0"
+	optfeature "bindings for rust" ">=dev-libs/tree-sitter-rust-0.23.0 and <=dev-libs/tree-sitter-rust-0.23.2"
 	optfeature "bindings for go" ">=dev-libs/tree-sitter-go-0.23.0"
 	optfeature "bindings for regex" ">=dev-libs/tree-sitter-regex-0.23.0"
 	optfeature "bindings for xml" ">=dev-libs/tree-sitter-xml-0.23.0"

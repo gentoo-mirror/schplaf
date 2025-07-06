@@ -39,12 +39,12 @@ dev-python/papis-rofi 0.2.0 0.2.0-r1 0.2.0-r2: Papis GUI using Rofi
 dev-python/playwright-python 1.52.0: Library to automate Chromium, Firefox and WebKit browsers with a single API
 dev-python/pyee 13.0.0: A rough port of Node.js's EventEmitter to Python with a few tricks of its own
 dev-python/pyexcel-ezodf 0.3.4-r3: Library to manipulate OpenDocument files (pyexcel version)
-dev-python/pykdtree 1.4.1: Fast kd-tree implementation with OpenMP-enabled queries
+dev-python/pykdtree 1.4.1 1.4.2: Fast kd-tree implementation with OpenMP-enabled queries
 dev-python/python-doi 0.2-r1: Python package to work with Document Object Identifier (doi)
 dev-python/python-markdownify 0.11.6 0.12.1 1.1.0: Library to convert HTML to Markdown
 dev-python/standard-imghdr 3.13.0: Standard library imghdr redistribution. "dead battery".(removed in Python-3.13)
 dev-python/standard-mailcap 3.13.0: Standard library mailcap redistribution. "dead battery".(removed in Python-3.13)
-dev-python/textual 3.2.0 3.3.0 3.4.0 3.5.0-r1: Python framework to build sophisticated UI
+dev-python/textual 3.5.0-r1 3.6.0: Python framework to build sophisticated UI
 dev-python/textual-speedups 0.2.0: Optional Rust speedups for Textual (dev-python/textual)
 dev-python/uv-dynamic-versioning 0.8.2: Dynamic versioning based on VCS tags for uv/hatch project
 dev-python/zope-dottedname 6.0: Resolve strings containing dotted names into the appropriate python object

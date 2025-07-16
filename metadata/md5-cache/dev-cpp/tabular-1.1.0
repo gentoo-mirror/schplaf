@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Lightweight, header-only C++ library for creating well-formatted, fully-customizable CLI tables.
+EAPI=8
+HOMEPAGE=https://github.com/Anas-Hamdane/tabular
+IUSE=doc examples
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/Anas-Hamdane/tabular/archive/refs/tags/v1.1.0.tar.gz -> tabular-1.1.0.tar.gz
+_md5_=3fee12c5f359c8bca74ec59b3b104eea

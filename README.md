@@ -42,9 +42,9 @@ Package list:
 * dev-python/playwright-python         - [1.52.0]           -- Library to automate Chromium, Firefox and WebKit browsers with a single API
 * dev-python/pyee                      - [13.0.0]           -- A rough port of Node.js's EventEmitter to Python with a few tricks of its own
 * dev-python/pyexcel-ezodf             - [0.3.4-r3]         -- Library to manipulate OpenDocument files (pyexcel version)
-* dev-python/pykdtree                  - [1.4.2]            -- Fast kd-tree implementation with OpenMP-enabled queries
+* dev-python/pykdtree                  - [1.4.3]            -- Fast kd-tree implementation with OpenMP-enabled queries
 * dev-python/python-doi                - [0.2-r1]           -- Python package to work with Document Object Identifier (doi)
-* dev-python/python-markdownify        - [1.1.0]            -- Library to convert HTML to Markdown
+* dev-python/python-markdownify        - [1.2.0]            -- Library to convert HTML to Markdown
 * dev-python/standard-imghdr           - [3.13.0]           -- Standard library imghdr redistribution. "dead battery".(removed in Python-3.13)
 * dev-python/standard-mailcap          - [3.13.0]           -- Standard library mailcap redistribution. "dead battery".(removed in Python-3.13)
 * dev-python/textual                   - [5.3.0]            -- Python framework to build sophisticated UI
@@ -53,7 +53,7 @@ Package list:
 * dev-python/zope-dottedname           - [6.0]              -- Resolve strings containing dotted names into the appropriate python object
 * dev-vcs/gitstats                     - [0_pre20201124-r1] -- Statistics generator for git [temporary ebuild, until the official one is updated]
 * dev-vcs/vcstool                      - [0.3.0-r1]         -- Tool designed to make working with multiple repositories easier
-* games-strategy/unciv-bin             - [4.17.12]          -- Civ V remake for Android & Desktop
+* games-strategy/unciv-bin             - [4.17.13]          -- Civ V remake for Android & Desktop
 * media-fonts/square                   - [1.0]              -- A TTF font designed to make characters fill a square space
 * media-gfx/imgcat                     - [1.0.22]           -- Display images and gifs in your terminal
 * media-libs/libtxc_dxtn               - [1.0.1]            -- Implementation of the S3 Texture Compression

@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=net-misc/yt-dlp app-misc/jq net-misc/curl media-video/mpv app-shells/fzf media-gfx/chafa media-video/ffmpeg rofi? ( x11-misc/rofi )
 SLOT=0
-SRC_URI=https://github.com/Stan-breaks/ytsurf/archive/refs/tags/v1.5.0.tar.gz -> ytsurf-1.5.0.tar.gz
+SRC_URI=https://github.com/Stan-breaks/ytsurf/archive/refs/tags/v1.7.0.tar.gz -> ytsurf-1.7.0.tar.gz
 _md5_=8347cf01fd729266fcb69bca76ef373c

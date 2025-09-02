@@ -65,3 +65,4 @@ net-p2p/bob-bin 9999: B·o·B, an universal & secure peer-to-peer file-transfer 
 sys-auth/solo1 0.1.1-r2: CLI and Python library for SoloKeys Solo 1
 x11-misc/find-cursor 1.7 1.8: Simple XLib program to highlight the cursor position
 x11-plugins/purple-discord 9999: A libpurple/Pidgin plugin for Discord
+x11-terms/cool-retro-term 1.2.0: Terminal emulator with an old school look and feel

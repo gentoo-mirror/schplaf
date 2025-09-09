@@ -22,8 +22,11 @@ DEPEND="
 	app-shells/fzf
 	media-gfx/chafa
 	media-video/ffmpeg
+	net-misc/xh
 	rofi? ( x11-misc/rofi )
 	"
+	# how to specify a dependency from another overlay? (net-misc/xh from guru overlay)
+
 RDEPEND="${DEPEND}"
 BDEPEND=""
 

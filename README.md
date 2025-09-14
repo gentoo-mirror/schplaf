@@ -56,7 +56,7 @@ Package list:
 * dev-python/zope-dottedname           - [6.0]              -- Resolve strings containing dotted names into the appropriate python object
 * dev-vcs/gitstats                     - [0_pre20201124-r1] -- Statistics generator for git [temporary ebuild, until the official one is updated]
 * dev-vcs/vcstool                      - [0.3.0-r1]         -- Tool designed to make working with multiple repositories easier
-* games-strategy/unciv-bin             - [4.18.0]           -- Civ V remake for Android & Desktop
+* games-strategy/unciv-bin             - [4.18.1]           -- Civ V remake for Android & Desktop
 * media-fonts/square                   - [1.0]              -- A TTF font designed to make characters fill a square space
 * media-gfx/imgcat                     - [1.0.22]           -- Display images and gifs in your terminal
 * media-libs/libtxc_dxtn               - [1.0.1]            -- Implementation of the S3 Texture Compression
@@ -65,7 +65,7 @@ Package list:
 * net-misc/ddgr                        - [2.2]              -- A command line utility to search DuckDuckGo from the terminal
 * net-misc/gophertube                  - [2.8.0]            -- A modern TUI for searching and watching YouTube videos using mpv and chafa
 * net-misc/reddit-tui                  - [0.3.9]            -- Terminal UI for reddit
-* net-misc/ytsurf                      - [1.9.3]            -- Simple shell script to search for YouTube videos from your terminal
+* net-misc/ytsurf                      - [1.9.5]            -- Simple shell script to search for YouTube videos from your terminal
 * net-misc/tuir                        - [1.29.0-r3]        -- A terminal user interface (TUI) for Reddit
 * net-p2p/bob-bin                      - [9999]             -- B·o·B, an universal & secure peer-to-peer file-transfer (binary version)
 * sys-auth/solo1                       - [0.1.1-r1]         -- CLI and Python library for SoloKeys Solo 1

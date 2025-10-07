@@ -1,0 +1,14 @@
+BDEPEND=doc? ( dev-ruby/asciidoctor app-alternatives/gzip ) || ( >=dev-lang/rust-bin-1.74.1:* >=dev-lang/rust-1.74.1:* )
+DEFINED_PHASES=compile configure install prepare setup test unpack
+DEPEND=net-misc/curl
+DESCRIPTION=cat for markdown: Show markdown documents in terminals
+EAPI=8
+HOMEPAGE=https://github.com/swsnr/mdcat
+INHERIT=cargo
+IUSE=bash-completion zsh-completion fish-completion doc debug
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 MPL-2.0 Apache-2.0 Apache-2.0-with-LLVM-exceptions BSD-2 BSD MIT MPL-2.0 Unicode-3.0 ZLIB
+SLOT=0
+SRC_URI=https://github.com/swsnr/mdcat/archive/refs/tags/mdcat-2.7.1.tar.gz https://gitea.com/slash/schplaf-gentoo-overlay-files/raw/tag/mdcat-2.7.1/mdcat/mdcat-2.7.1-crates.tar.xz
+_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	rust	67553b9b0296e5b691a6f6efdce65271	rust-toolchain	76468983281b0a7fc167ca224f84ecfd	cargo	a1af74aa9e34cd73aeac642cd0dd54d8
+_md5_=9f16947476dc849fc163b8f636b118f7

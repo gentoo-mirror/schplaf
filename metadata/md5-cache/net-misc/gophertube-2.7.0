@@ -10,5 +10,5 @@ LICENSE=GPL-3
 RDEPEND=net-misc/yt-dlp media-video/mpv app-shells/fzf media-gfx/chafa
 SLOT=0
 SRC_URI=https://github.com/KrishnaSSH/GopherTube/archive/refs/tags/v2.7.0.tar.gz -> gophertube-2.7.0.tar.gz https://gitea.com/slash/schplaf-gentoo-overlay-files/raw/tag/gophertube-2.7.0/gophertube/gophertube-2.7.0-deps.tar.xz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	d96f2a2fd6d8fbad6d94516bf238f885
 _md5_=85ad3a3343a5d0189a893537aa29f8aa
